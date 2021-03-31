@@ -7,12 +7,13 @@
 		text-align: center;
 		display: inline-block;
 		background: linear-gradient(to right, #3fbdb5 0%, #7277f0 60%, #ec5858 100%);
+		background-clip: text;
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
 		border-radius: 10px;
 
 		@media screen and (max-width:768px) {
-			font-size: 6.25vw;
+			font-size: clamp(24px, 6.4vw, 48px);
 		}
 	}
 }
@@ -28,7 +29,7 @@
 		margin: 0 auto;
 
 		@media screen and (max-width:768px) {
-			width: 39.06%;
+			width: clamp(150px, 40vw, 300px);
 		}
 	}
 
