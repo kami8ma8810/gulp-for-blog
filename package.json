@@ -1,28 +1,27 @@
 {
-	"name": "gulp2021",
+	"name": "gulp-for-blog",
 	"version": "1.0.0",
-	"description": "gulp2021 for blog",
-	"main": "index.js",
+	"description": "",
+	"main": "gulpfile.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/kami8ma8810/PortfolioSite2020.git"
+		"url": "git+https://github.com/kami8ma8810/gulp-for-blog.git"
 	},
 	"keywords": [],
 	"author": "",
 	"license": "ISC",
 	"bugs": {
-		"url": "https://github.com/kami8ma8810/PortfolioSite2020/issues"
+		"url": "https://github.com/kami8ma8810/gulp-for-blog/issues"
 	},
-	"homepage": "https://github.com/kami8ma8810/PortfolioSite2020#readme",
+	"homepage": "https://github.com/kami8ma8810/gulp-for-blog#readme",
 	"devDependencies": {
-		"@babel/core": "^7.13.8",
-		"@babel/preset-env": "^7.13.9",
-		"autoprefixer": "^10.0.1",
-		"browser-sync": "^2.26.12",
-		"css-declaration-sorter": "^5.1.2",
+		"@babel/core": "^7.13.14",
+		"@babel/preset-env": "^7.13.12",
+		"autoprefixer": "^10.2.5",
+		"browser-sync": "^2.26.14",
 		"gulp": "^4.0.2",
 		"gulp-babel": "^8.0.0",
 		"gulp-dart-sass": "^1.0.2",
@@ -35,15 +34,14 @@
 		"gulp-uglify": "^3.0.2",
 		"imagemin-gifsicle": "^7.0.0",
 		"imagemin-mozjpeg": "^9.0.0",
-		"imagemin-pngquant": "^9.0.1",
-		"postcss": "^8.2.9",
-		"sass": "^1.29.0"
+		"imagemin-pngquant": "^9.0.2",
+		"imagemin-svgo": "^9.0.0",
+		"postcss": "^8.2.9"
 	},
 	"browserslist": [
 		"last 3 version",
 		"IE >= 10",
 		"> 1% in JP",
 		"not dead"
-	],
-	"dependencies": {}
+	]
 }
