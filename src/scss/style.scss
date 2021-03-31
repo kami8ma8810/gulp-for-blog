@@ -1,0 +1,39 @@
+.title {
+	text-align: center;
+
+	h1 {
+		font-size: 48px;
+		color: #333; //for IE
+		text-align: center;
+		display: inline-block;
+		background: linear-gradient(to right, #3fbdb5 0%, #7277f0 60%, #ec5858 100%);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		border-radius: 10px;
+
+		@media screen and (max-width:768px) {
+			font-size: 6.25vw;
+		}
+	}
+}
+
+
+.logo-container {
+	display: grid;
+	justify-items: center;
+	align-items: center;
+
+	.logo {
+		width: 300px;
+		margin: 0 auto;
+
+		@media screen and (max-width:768px) {
+			width: 39.06%;
+		}
+	}
+
+	img {
+		max-width: 100%;
+		height: auto;
+	}
+}
